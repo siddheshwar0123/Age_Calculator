@@ -1,0 +1,108 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    
+}
+body {
+   background-color: black;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+#form {
+    height: 400px;
+    width: 900px;
+    background-color: #24075184;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 1rem;
+    border: 0.3rem solid rgb(79, 78, 62);
+}
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+}
+.center h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h1 {
+    color:tomato;
+    text-decoration: underline;
+    text-shadow: #d8315b;
+}
+.settings h2 {
+    color:#09f13b;
+}
+
+#setting-icon {
+    font-size: 2rem;
+    color: #d8315b;
+}
+.settings {
+    position:absolute;
+    bottom: 10rem;
+    right: 200px;
+    display: flex;
+    gap: 1rem;
+}
+
+.setting-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.setting-content input {
+    font-size: 1.2rem;
+}
+.setting-content button {
+    font-size: 1.2rem;
+}
+.hide {
+    display: none;
+}
+.time-container {
+    margin-top: 1rem;
+    display: flex;
+    padding-top: 50px;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    line-height: 5rem;
+}
+
+.time-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(211, 14, 250);
+}
+
+.time-container div {
+    font-size: 4rem;
+}
+
+#second {
+    color: rgb(228, 8, 8);
+}
+#minute {
+    color: white;
+}
+#hour {
+    color: white;
+}
+#day {
+    color: white;
+}
+#month {
+    color: white;
+}#year {
+    color: white;
+}
+button {
+    color: white;
+    background: none
+}

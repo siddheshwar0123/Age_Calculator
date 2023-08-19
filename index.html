@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Age Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script:wght@500;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,900&family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <form id="form">
+        <div id="initialText" class="container">
+            <h1>Enter Your DOB :-</h1>
+        </div>
+        <div class="container">
+            <div id="afterDOBBtn" class="center">
+                <h1>
+                    <br>How Much Life journey Covered, Till Now</h1>
+                <div class="time-container">
+                    <h2>
+                        <div id="year">0</div>
+                        YEAR
+                    </h2>
+                    <h2>
+                        <div id="month">0</div>
+                        MONTH
+                    </h2>
+                    <h2>
+                        <div id="day">0</div>
+                        DAY
+                    </h2>
+                    <h2>
+                        <div id="hour">0</div>
+                        HOUR
+                    </h2>
+                    <h2>
+                        <div id="minute">0</div>
+                        MINUTE
+                    </h2>
+                    <h2>
+                        <div id="second">0</div>
+                        SECOND
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <div class="settings">
+        <h2>Enter DOB:-</h2>
+        <i id="setting-icon" class="fa-solid fa-gear fa-beat-fade"></i>
+        <div id="setting-content" class="setting-content hide">
+            <input type="date" id="dobInput">
+            <button id="dobButton">OK</i></button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
